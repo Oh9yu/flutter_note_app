@@ -1,4 +1,5 @@
-import 'package:archive_idea/splash_screen.dart';
+import 'package:archive_idea/screen/main_screen.dart';
+import 'package:archive_idea/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/' : (context) => SplashScreen(),
+        '/main' : (context) => MainScreen()
 
       },
     );
